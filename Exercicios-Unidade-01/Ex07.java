@@ -9,9 +9,7 @@ public class Ex07 {
         char vezJogador = 'X';
         inicializarTabuleiro(tabuleiro);
 
-        while(jogoAtivo) {
-
-            
+        while(jogoAtivo) {        
             exibirTabuleiro(tabuleiro);
             realizarJogada(tabuleiro, vezJogador);
             if (verificarVitoria(tabuleiro, vezJogador)) {
